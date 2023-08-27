@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+/* Navbar Start */
+
+.navbar {
+  background-color: #1a1a1a;
+  padding: 0.75rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  font-weight: 500;
+  margin: 0.3em;
+}
+
+.nav-menu {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 1.5rem;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+}
+
+.nav-menu:hover {
+  color: #f7c873;
+}
+
+/* Navbar End */
+
+
+
+/* Hero Start */
+.heroParent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #f5f5f5;
+  color: #333;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+  align-items: top;
+  height: 100%;
+}
+
+#berita {
+  flex: 1;
+  margin-right: 3em;
+  text-align: justify;
+}
+
+#Title_Berita {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#content_berita {
+  font-size: 1rem;
+}
+
+#agenda {
+  flex: 1;
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: none;
+  background-color: #f5f1e4;
+  max-width: 20vw;
+}
+
+#agenda h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#agenda ul {
+  list-style: none;
+  padding: 0;
+}
+
+#agenda li {
+  margin-bottom: 0.5rem;
+  margin-left: 1em;
+}
+
+/* Hero End */
+
+
+
+/* Footer Start */
+
+.footer {
+  background-color: #1a1a1a;
+  padding: 1.5em;
+  color: #808080;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+/* Footer End */
+
+
+@media(max-width: 1024px){
+  .heroParent{
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-right: 3em;
+  }
+  #berita{
+    margin-right: 1.5em;
+  }
+  .footer{
+    font-size: 0.8em;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  body{
+    height: auto;
+  }
+  .heroParent{
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  #berita {
+    text-align: left;
+    margin-right: 1em;
+  }
+  #content_berita{
+    font-size: 0.9em;
+    text-align: justify;
+  }
+  #agenda h2 {
+    font-size: 1.5em;
+  }
+  #agenda li{
+    font-size: 0.9em;
+    margin-left: 0.3em;
+  }
+  .footer{
+    font-size: 0.7em;
+  }
+  
+  
+}
+
+@media (max-width: 576px) {
+  .nav-menu{
+    font-size: 0.6em;
+    margin-right: 1em;
+  }
+  .heroParent{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  #Title_Berita {
+    font-size: 1.5rem;
+  }
+  #content_berita {
+    font-size: 0.7em;
+  }
+  #berita{
+    margin-right: 0.75em;
+  }
+  #agenda h2 {
+    font-size: 1.125em;
+  }
+  #agenda li{
+    font-size: 0.7em;
+    margin-left: 0.3em;
+  }
+   .footer{
+    font-size: 0.6em;
+  }
+
+}
+@media (max-width: 425px) {
+  .nav-menu {
+    margin-right: 0.5em;
+    font-size: 0.6em;
+  }
+  .heroParent{
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .nav-menu {
+    font-size: 0.6em;
+  }
+  .heroParent{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  #Title_Berita {
+    font-size: 1.2em;
+  }
+  #content_berita {
+    font-size: 0.7em;
+    text-align: left;
+  }
+  #agenda h2 {
+    font-size: 1em;
+  }
+   .footer{
+    font-size: 0.5em;
+  }
+}
