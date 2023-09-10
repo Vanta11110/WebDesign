@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <script src="action.js"></script>
+    <title>calculator</title>
+  </head>
+  <body>
+    <div id="parent">
+      <!-- Hitory Start -->
+      <div id="display2">
+        <div id="history"></div>
+      </div>
+      <!-- History End -->
+
+      <!-- Hasil Start -->
+      <div id="display">
+        <div id="hasil">0</div>
+      </div>
+      <!-- Hasil End -->
+
+      <!-- Button Start -->
+      <div id="button">
+        <div class="row">
+          <button>C</button>
+          <button disabled></button>
+          <button value="del">del</button>
+          <button class="operation" value="/">:</button>
+        </div>
+        <div class="row">
+          <button value="7">7</button>
+          <button value="8">8</button>
+          <button value="9">9</button>
+          <button class="operation" value="*">x</button>
+        </div>
+        <div class="row">
+          <button value="4">4</button>
+          <button value="5">5</button>
+          <button value="6">6</button>
+          <button class="operation" value="-">-</button>
+        </div>
+        <div class="row">
+          <button value="1">1</button>
+          <button value="2">2</button>
+          <button value="3">3</button>
+          <button class="operation" value="+">+</button>
+        </div>
+        <div class="row">
+          <button value="+/-">+/-</button>
+          <button value="0">0</button>
+          <button>.</button>
+          <button>=</button>
+        </div>
+      </div>
+      <!-- Button End -->
+    </div>
+  </body>
+</html>
